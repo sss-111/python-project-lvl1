@@ -12,9 +12,9 @@ def main():
     while a < 3:
         number = random.randint(0, 50)
         if number % 2:
-            answer = 'yes'
-        else:
             answer = 'no'
+        else:
+            answer = 'yes'
         print('Question: ' + str(number))
         answer_user = prompt.string('Your answer: ')
         if str(answer_user) == str(answer):
