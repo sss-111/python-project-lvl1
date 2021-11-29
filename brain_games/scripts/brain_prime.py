@@ -23,7 +23,9 @@ def main():
         if str(answer_user) == str(answer):
             print('Correct!')
         else:
-            print("'" + answer_user + "' is wrong answer ;(. Correct answer was '" + answer + "'.")
+            print("'" + answer_user
+             + "' is wrong answer ;(. Correct answer was '"
+             + answer + "'.")
             print("Let's try again, " + name + '!')
             break
         if a == 2:
