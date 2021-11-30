@@ -20,8 +20,8 @@ def main():
             print('Correct!')
         else:
             print("'" + str(answer_user)
-             + "' is wrong answer ;(. Correct answer was '"
-             + str(answer) + "'.")
+                + "' is wrong answer ;(. Correct answer was '"
+                + str(answer) + "'.")
             print("Let's try again, " + name + '!')
             break
         if a == 2:

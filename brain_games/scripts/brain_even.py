@@ -21,8 +21,8 @@ def main():
             print('Correct!')
         else:
             print("'" + answer_user
-             + "' is wrong answer ;(. Correct answer was '" 
-             + answer + "'.")
+                + "' is wrong answer ;(. Correct answer was '"
+                + answer + "'.")
             print("Let's try again, " + name + '!')
             break
         if a == 2:
