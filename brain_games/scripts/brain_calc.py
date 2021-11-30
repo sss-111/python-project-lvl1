@@ -21,7 +21,7 @@ def main():
         else:
             answer = number1 * number2
         print('Question: ' + str(number1)
-         + ' ' + array[index] + ' ' + str(number2))
+              + ' ' + array[index] + ' ' + str(number2))
         answer_user = prompt.string('Your answer: ')
         if str(answer_user) == str(answer):
             print('Correct!')
